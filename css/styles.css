@@ -1,0 +1,42 @@
+.container-notification{
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    top: 170px;
+    left: 0;
+    background-color: #bd9866;
+    padding: 10px 20px;
+    font-family: 'Lato';
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.container-display-notification{
+    display: flex;
+    align-items: center;
+}
+.container-meta-notification{
+    display: flex;
+    justify-content: space-between;
+}
+.location-notification{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.date-notification{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+}
+.img-notification{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 479px) {
+    .container-notification{
+        top: 120px;
+    }
+}
